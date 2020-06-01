@@ -14,7 +14,6 @@ const staticAssets = [
     '/js/duenos.js',
     '/js/veterinarias.js',
     '/js/consultas.js',
-    '/js/consultas.js',
     '/js/jquery-3.4.1.slim.min.js',
     '/js/popper.min.js',
     '/js/v4-shims.js',
