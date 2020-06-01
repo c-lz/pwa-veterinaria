@@ -33,3 +33,14 @@ self.addEventListener('install', async e =>{
 self.addEventListener('activate', e =>{
     self.clients.claim();
 })
+
+self.addEventListener('fetch', async e => {
+    const req = e.request;
+    const url = new URL(req.url);
+
+    if(url.origin === location.origin) {
+        e.respondWith(cacheFirst(req));
+    } else {
+        e.respondWith(networkAndCache(req));
+    }
+});
