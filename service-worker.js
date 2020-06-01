@@ -13,6 +13,15 @@ const staticAssets = [
     '/js/mascotas.js',
     '/js/duenos.js',
     '/js/veterinarias.js',
+    '/js/consultas.js',
+    '/js/consultas.js',
+    '/js/jquery-3.4.1.slim.min.js',
+    '/js/popper.min.js',
+    '/js/v4-shims.js',
+    '/js/all.js',
+    '/js/bootstrap.min.js',
+    '/webfonts/fa-regular-400.woff2',
+    '/webfonts/fa-solid-900.woff2',
 ];
 
 
